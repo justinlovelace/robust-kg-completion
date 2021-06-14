@@ -36,10 +36,10 @@ The re-ranking models can only be trained after the ranking model for the corres
 - SNOMED-CT Core `./scripts/train_reranking_snomed.sh`
 
 ## Evaluating Pretrained Ranking Models
-Pretrained ranking models can be downloaded from [here](https://drive.google.com/drive/folders/1q20hhUq20wt5OSbHbOWsvAiviFUZ8s8r?usp=sharing). After unzipping them in a `robust-kg-completion/pretrained_models` directory, they can be evaluated by running `./scripts/eval_pretrained_ranking_model.sh {DATASET}` where `{DATASET}` is one of `SNOMED_CT_CORE`, `FB15K_237`, `FB15K_237_SPARSE`, or `CN100K`.
+Pretrained ranking models can be downloaded from [here](https://drive.google.com/drive/folders/1q20hhUq20wt5OSbHbOWsvAiviFUZ8s8r?usp=sharing). After unzipping them in the `robust-kg-completion/pretrained_models` directory, they can be evaluated by running `./scripts/eval_pretrained_ranking_model.sh {DATASET}` where `{DATASET}` is one of `SNOMED_CT_CORE`, `FB15K_237`, `FB15K_237_SPARSE`, or `CN100K`.
 
 ## Evaluating Pretrained Re-Ranking Models 
-Pretrained re-ranking models can be downloaded from [here](https://drive.google.com/drive/folders/1q20hhUq20wt5OSbHbOWsvAiviFUZ8s8r?usp=sharing). After unzipping them in a `robust-kg-completion/reranking/pretrained_reranking_models` directory, they can be evaluated by running the following commands.
+Pretrained re-ranking models can be downloaded from [here](https://drive.google.com/drive/folders/1q20hhUq20wt5OSbHbOWsvAiviFUZ8s8r?usp=sharing). After unzipping them in the `robust-kg-completion/reranking/pretrained_reranking_models` directory, they can be evaluated by running the following commands.
 
 - FB15K-237: `./scripts/eval_pretrained_reranking_model.sh FB15K_237 0.75`
 - FB15K-237-Sparse: `./scripts/eval_pretrained_reranking_model.sh FB15K_237_SPARSE 0.75`
