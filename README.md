@@ -46,3 +46,16 @@ Pretrained re-ranking models can be downloaded from [here](https://drive.google.
 - CN100K: `./scripts/eval_pretrained_reranking_model.sh CN100K 1.0`
 - SNOMED-CT Core `./scripts/eval_pretrained_reranking_model.sh SNOMED_CT_CORE 0.5`
 
+## Citation
+```
+@inproceedings{lovelace-etal-2021-robust,
+  title={Robust Knowledge Graph Completion with Stacked Convolutions and a Student Re-Ranking Network},
+  author={Justin Lovelace and Denis Newman-Griffis and Shikhar Vashishth and Jill Fain Lehman and Carolyn Penstein Rosé},
+  booktitle = {Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP)},
+  month = {August},
+  year = {2021}
+  eprint={2106.06555},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG}
+}
+```
