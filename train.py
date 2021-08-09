@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader
 import sys
 from tqdm import tqdm
 from evaluation import ranking_and_hits
-from CONSTANTS import DATA_DIR, SHARED_PARAMS, MODEL_PARAMS, GRID_SEARCH
+from CONSTANTS import DATA_DIR
 import time
 from functools import partial
 import contextlib
