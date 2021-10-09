@@ -1,7 +1,7 @@
 # Robust Knowledge Graph Completion with Stacked Convolutions and a Student Re-Ranking Network
 
 
-This repository contains the implementation for our paper: 
+This repository contains the implementation for our paper ([link](https://arxiv.org/abs/2106.06555)): 
 
 **Robust Knowledge Graph Completion with Stacked Convolutions and a Student Re-Ranking Network** \
 Justin Lovelace, Denis Newman-Griffis, Shikhar Vashishth, Jill Fain Lehman, and Carolyn Penstein Rosé \
